@@ -44,7 +44,7 @@ public class ListviewActivity extends AppCompatActivity {
 
     private void createListView() {
 
-        
+
         //Inherited MyAdapter
         MyAdapter objMyAdapter = new MyAdapter(ListviewActivity.this, iconAnInt, titleStrings);
         contentListView.setAdapter(objMyAdapter);
@@ -55,7 +55,8 @@ public class ListviewActivity extends AppCompatActivity {
 
                 //Intent to ResultActivity
                 Intent objIntent = new Intent(ListviewActivity.this, ResultActivity.class);
-                objIntent.putExtra("index", i);
+                objIntent.putExtra("Position", i);
+                objIntent.putExtra("Mode", indexAnInt);
                 startActivity(objIntent);
 
             }
