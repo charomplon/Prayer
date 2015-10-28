@@ -25,9 +25,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }   //onCrate
 
+    public void clickMenu(View view) {
+
+        Intent objIntent = new Intent(MainActivity.this, MenuActivity.class);
+        startActivity(objIntent);
+
+    }
+
+
     private void imageController() {
 
-        content1IMageView.setOnClickListener(this);
+        // content1IMageView.setOnClickListener(this);
         content2ImageView.setOnClickListener(this);
         content3ImageView.setOnClickListener(this);
         content4ImageView.setOnClickListener(this);
@@ -50,7 +58,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (view.getId()) {
             case R.id.imageView:
-                intImage = 0;
+
+
                 break;
             case R.id.imageView2:
                 intImage = 1;
@@ -81,6 +90,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent objIntent = new Intent(MainActivity.this, ListviewActivity.class);
         objIntent.putExtra("index", intImage);
         startActivity(objIntent);
+
+
     }   // intent to ListView
 
 }   // minclass

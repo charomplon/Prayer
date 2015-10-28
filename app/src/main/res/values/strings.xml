@@ -5,4 +5,12 @@
     <string name="content3">เรื่องน่ารู้</string>
     <string name="content4">เกี่ยวกับผู้เขียน</string>
 
+    <string name="menu1">บทสวดทั่วไป</string>
+    <string name="menu2">พระคถาชินบัญชร</string>
+    <string name="menu3">ทำวัตรเช้า</string>
+    <string name="menu4">ทำวัตรเย็น</string>
+    <string name="menu5">สวดมนต์ก่อนนอน</string>
+    <string name="menu6">สวดมนต์ข้ามปี</string>
+
+
 </resources>
