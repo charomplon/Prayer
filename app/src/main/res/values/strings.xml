@@ -9,6 +9,13 @@
     <string name="content7">สวดมนต์ก่อนนอน</string>
     <string name="content8">สวดมนต์ข้ามปี</string>
 
+    <string name="aboutme">ผู้จัดทำ</string>
+    <string name="name">นาย เฉลิมพล ดีพลงาม</string>
+    <string name="idcard">รหัสนักศึกษา  5511501750</string>
+    <string name="year">ปีการศึกษา 2558</string>
+    <string name="Year1">ชั้นปีที่ 4</string>
+    <string name="univercity">มหาวิทยาลัยราชภัฏจันทรเกษม</string>
+
 
 
     <string name="menu1">บทสวดทั่วไป</string>

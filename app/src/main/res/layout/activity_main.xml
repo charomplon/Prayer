@@ -84,6 +84,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="@dimen/icon"
                 android:layout_height="@dimen/icon"
+                android:onClick="clickAboutMe"
                 android:layout_weight="1"
                 android:src="@drawable/content4" />
         </LinearLayout>
@@ -108,10 +109,11 @@
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="0dp"
+
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/content4"
+                android:text="@string/aboutme"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
         </LinearLayout>

@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }   //onCrate
 
+    public void clickAboutMe(View view) {
+        Intent objIntent = new Intent(MainActivity.this, AboutMeActivity.class);
+        startActivity(objIntent);
+    }
+
+
+
     public void clickMenu(View view) {
 
         Intent objIntent = new Intent(MainActivity.this, MenuActivity.class);
@@ -38,7 +45,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // content1IMageView.setOnClickListener(this);
         content2ImageView.setOnClickListener(this);
         content3ImageView.setOnClickListener(this);
-        content4ImageView.setOnClickListener(this);
+
+
     }   // imageController
 
     private void bindWidget() {
@@ -46,7 +54,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         content1IMageView = (ImageView) findViewById(R.id.imageView);
         content2ImageView = (ImageView) findViewById(R.id.imageView2);
         content3ImageView = (ImageView) findViewById(R.id.imageView3);
-        content4ImageView = (ImageView) findViewById(R.id.imageView4);
 
 
     }   //bindwidget
@@ -67,10 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.imageView3:
                 intImage = 2;
                 break;
-            case R.id.imageView4:
 
-                startActivity(new Intent(this, AboutMeActivity.class));
-                break;
             default:
                 intImage = 0;
                 break;
