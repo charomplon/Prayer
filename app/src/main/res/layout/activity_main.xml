@@ -54,7 +54,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:text="@string/content1"
-                android:textSize="@dimen/h1"
+                android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
@@ -64,7 +64,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:text="@string/content2"
-                android:textSize="@dimen/h1"
+                android:textSize="@dimen/h2"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -86,7 +86,7 @@
                 android:layout_height="@dimen/icon"
                 android:onClick="clickAboutMe"
                 android:layout_weight="1"
-                android:src="@drawable/content4" />
+                android:src="@drawable/abotme" />
         </LinearLayout>
 
         <LinearLayout
@@ -103,7 +103,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:text="@string/content3"
-                android:textSize="@dimen/h1"
+                android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
@@ -114,7 +114,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:text="@string/aboutme"
-                android:textSize="@dimen/h1"
+                android:textSize="@dimen/h2"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
