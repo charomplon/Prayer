@@ -60,9 +60,29 @@ public class ResultActivity extends AppCompatActivity {
                 strTinle = getResources().getString(R.string.content3);
                 strDetail = getResources().getStringArray(R.array.content_content3);
                 break;
+            case 4:
+                strTinle = getResources().getString(R.string.content4);
+                strDetail = getResources().getStringArray(R.array.content_content4);
+                break;
+            case 5:
+                strTinle = getResources().getString(R.string.content5);
+                strDetail = getResources().getStringArray(R.array.content_content5);
+                break;
+            case 6:
+                strTinle = getResources().getString(R.string.content6);
+                strDetail = getResources().getStringArray(R.array.content_content6);
+                break;
+            case 7:
+                strTinle = getResources().getString(R.string.content7);
+                strDetail = getResources().getStringArray(R.array.content_content7);
+                break;
+            case 8:
+                strTinle = getResources().getString(R.string.content8);
+                strDetail = getResources().getStringArray(R.array.content_content8);
+                break;
             default:
-                strTinle = "Nothing";
-                strDetail = null;
+                strTinle = getResources().getString(R.string.content8);
+                strDetail = getResources().getStringArray(R.array.content_content8);
                 break;
         }   // switch
 
@@ -79,7 +99,7 @@ public class ResultActivity extends AppCompatActivity {
     private void bindwidget() {
         titlTextView = (TextView) findViewById(R.id.txtReaultTitle);
         detaTextView = (TextView) findViewById(R.id.txtResulrDetail);
-        iconImageView = (ImageView) findViewById(R.id.imvResultlcon);
+
     }
 
 }   // Main Class
