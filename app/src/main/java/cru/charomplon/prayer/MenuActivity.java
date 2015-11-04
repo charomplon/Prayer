@@ -58,15 +58,19 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 intIndex = 0;
                 break;
             case R.id.imageView6:
+                intIndex = 4;
                 break;
             case R.id.imageView7:
+                intIndex = 5;
                 break;
             case R.id.imageView8:
+                intIndex = 6;
                 break;
             case R.id.imageView9:
+                intIndex = 7;
                 break;
             case R.id.imageView10:
-                intIndex = 0;
+                intIndex = 8;
                 break;
         }   //swich
 
