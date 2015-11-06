@@ -86,7 +86,7 @@
                 android:layout_height="@dimen/icon"
                 android:onClick="clickAboutMe"
                 android:layout_weight="1"
-                android:src="@drawable/abotme" />
+                android:src="@drawable/abotme1" />
         </LinearLayout>
 
         <LinearLayout
