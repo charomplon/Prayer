@@ -9,6 +9,7 @@
     <dimen name="linnear">600dp</dimen>
     <dimen name="height">800dp</dimen>
     <dimen name="menu">300dp</dimen>
+    <dimen name="mymargin">150dp</dimen>
 
 
 </resources>

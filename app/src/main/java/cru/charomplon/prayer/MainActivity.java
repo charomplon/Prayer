@@ -17,15 +17,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Bind widget
+        //Bind widget คือการ ผูกความสัมพันธ์ ระหว่างตัวแปร และ Widget ที่อยู่บน Activity
         bindWidget();
 
-        //Image Controller
+        //Image Controller คือการทำให้ รูปภาพที่อยู่บนจอ สามารถคลิกได้
         imageController();
 
-    }   //onCrate
+    }   //onCrate นี่เมธอตหลัก เมธาตนี่จะเริ่มต้นการทำงานก่อน
 
+
+    // เมธอต ตัวนี้จะทำงาน ก็ต่อเมื่อ คลิกรูปภาพ About Me
     public void clickAboutMe(View view) {
+
+        //Intent คือ การเคลื่อนย้ายการทำงาน จาก Activiy หลักไป aboutMeActivity
         Intent objIntent = new Intent(MainActivity.this, AboutMeActivity.class);
         startActivity(objIntent);
     }
